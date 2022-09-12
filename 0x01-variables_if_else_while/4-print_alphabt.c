@@ -1,24 +1,23 @@
 #include <stdio.h>
-/* More headers can be added here */
 
 /**
- * main - Prints all alphabets except q and e
+ * main - Prints all twenty-four alphabets excluding q and e
  *
- * Return: Always 0
+ * Return: 0
  */
 int main(void)
 {
-	char twentyFourLetters = 97;
+	char letters = 97;
 
-	while (twentyFourLetters <= 122)
+	while (letters <= 122)
 	{
-		if (twentyFourLetters == 113 || twentyFourLetters == 101)
+		if (letters == 113 || letters == 101)
 		{
-		twentyFourLetters++;
+		letters++;
 		continue;
 		}
-		putchar(twentyFourLetters);
-		twentyFourLetters++;
+		putchar(letters);
+		letters++;
 	}
 	putchar('\n');
 	return (0);
