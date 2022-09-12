@@ -1,15 +1,14 @@
 #include <stdlib.h>
 #include <time.h>
 #include <stdio.h>
-/* more headers goes here */
 
 /**
  * main - Assigns a random number to variable n and check
- * if the last digit of n is greater than five
- * if the last digit of n is equal to zero
- * if the last digit of n is less than six and not zero
+ * is greater than five
+ * is equal to zero
+ * is less than six and not zero
  *
- * Return: Always 0
+ * Return: 0
  */
 int main(void)
 {
