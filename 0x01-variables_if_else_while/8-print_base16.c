@@ -1,28 +1,27 @@
 #include <stdio.h>
-/* More headers can be added here */
 
 /**
  * main - Prints all numbers and letters (lowercase) of base 16
  *
- * Return: Always 0
+ * Return: 0
  */
 int main(void)
 {
-	int n; /* n for numbers of base 16 */
+	int a;
 
-	int l_l; /* l_l for lowercase letters of base 16 */
+	int b;
 
-	n = 48;
-	l_l = 97;
-	while (n <= 57)
+	a = 48;
+	b = 97;
+	while (a <= 57)
 	{
-		putchar(n);
-		n++;
+		putchar(a);
+		a++;
 	}
-	while (l_l <= 102)
+	while (b <= 102)
 	{
-		putchar(l_l);
-		l_l++;
+		putchar(b);
+		b++;
 	}
 	putchar('\n');
 	return (0);
