@@ -1,25 +1,24 @@
 #include <stdio.h>
-/* Extra header files can be added here */
 
 /**
  * main - Prints all possible combinations of single-digit numbers
  *
- * Return: Always 0
+ * Return: 0
  */
 int main(void)
 {
-	int x;
+	int c;
 
-	x = 48;
-	while (x <= 57)
+	c = 48;
+	while (c <= 57)
 	{
-		putchar(x);
-		if (x != 57)
+		putchar(c);
+		if (c != 57)
 		{
 			putchar(44);
 			putchar(32);
 		}
-		x++;
+		c++;
 	}
 	putchar('\n');
 	return (0);
