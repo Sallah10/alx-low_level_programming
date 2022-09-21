@@ -2,7 +2,7 @@
 #include "main.h"
 
 /**
- * _puts: lorem ipsum
+ * _puts - lorem ipsum
  * @str: lorem ipsum
  *
  * Return: 0
