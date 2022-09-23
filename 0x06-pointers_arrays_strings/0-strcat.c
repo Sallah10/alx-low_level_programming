@@ -1,7 +1,7 @@
 #include "main.h"
 
 /**
- * _strcat - joins two strings together
+ * _strcat - lorem ipsum
  * @dest: lorem ipsum
  * @src: lorem ipsum
  *
@@ -11,17 +11,17 @@ char *_strcat(char *dest, char *src)
 {
 	int i;
 
-	int dLen;
+	int d_len;
 
 	i = 0;
-	dLen = 0;
+	d_len = 0;
 	while (dest[i++])
 	{
-		dLen++;
+		d_len++;
 	}
 	for (i = 0; src[i]; i++)
 	{
-		dest[dLen++] = src[i];
+		dest[d_len++] = src[i];
 	}
-	return (dest);
+	return (src);
 }
