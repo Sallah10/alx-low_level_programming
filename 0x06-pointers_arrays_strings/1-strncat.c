@@ -2,18 +2,18 @@
 
 /**
  * _strncat - concatenates two strings
- * @dest: destination string
- * @src: source string
- * @n: at most n bytes from src to dest
+ * @dest: lorem ipsum
+ * @src: lorem ipsum
+ * @n: lorem ipsum
  *
- * Return: a pointer to the resulting string dest
+ * Return: lorem ipsum
  */
 char *_strncat(char *dest, char *src, int n)
 {
 	int i;
-
+	
 	int d_len;
-
+	
 	i = 0;
 	d_len = 0;
 	while (dest[i++])
