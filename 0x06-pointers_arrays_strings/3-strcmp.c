@@ -2,10 +2,10 @@
 
 /**
  * _strcmp - compares two strings
- * @s1: first given string
- * @s2: second given string
+ * @s1: lorem ipsum
+ * @s2: lorem ipsum
  *
- * Return: differences in the two strings, else 0
+ * Return: lorem ipsum
  */
 int _strcmp(char *s1, char *s2)
 {
