@@ -1,11 +1,11 @@
 #include "main.h"
 
 /**
- * _strcat - concatenates two strings
- * @dest: destination string
- * @src: source string
+ * _strcat - joins two strings together
+ * @dest: lorem ipsum
+ * @src: lorem ipsum
  *
- * Return: a pointer to the resulting string dest
+ * Return: lorem ipsum
  */
 char *_strcat(char *dest, char *src)
 {
